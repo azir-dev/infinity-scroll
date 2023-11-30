@@ -14,6 +14,7 @@ function checkAllImageLoaded() {
   loadedImageCount++;
   if (loadedImageCount === images.length) {
     isReady = true;
+    loaderEl.hidden = true;
   }
 }
 
