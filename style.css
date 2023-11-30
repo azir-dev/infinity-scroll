@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dhurjati&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Dhurjati", sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4.2rem;
+}
+
+.images {
+  margin: 0 30%;
+}
+
+.images img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.68);
+}
+
+.loader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 900px) {
+  .images {
+    margin: 10px;
+  }
+}
