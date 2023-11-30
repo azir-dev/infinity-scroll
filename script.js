@@ -2,7 +2,7 @@
 const loaderEl = document.getElementById("loader");
 const imageContainer = document.getElementById("images");
 // API config
-const unsplashApiKey = "jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek";
+const unsplashApiKey = "cStXuE6xn_4wW1hPA0b2vvQHuML14b3waPSSmF2tW74";
 const imageCount = 10;
 const unsplashUrl = `https://api.unsplash.com/photos/random/?client_id=${unsplashApiKey}&count=${imageCount}`;
 
